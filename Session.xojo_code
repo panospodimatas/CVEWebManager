@@ -14,8 +14,8 @@ Inherits WebSession
 		  
 		  
 		  mDb.Host = "127.0.0.1"
-		  mDb.UserName = "cvedbmyman"
-		  mDb.Password = "BufIv7YjiBZpMrGh"
+		  mDb.UserName = "myusername"
+		  mDb.Password = "mypassword"
 		  mDb.DatabaseName = "cvedb"
 		  mDBisConnected = False
 		  
