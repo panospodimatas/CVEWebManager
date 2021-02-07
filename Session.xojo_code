@@ -26,34 +26,83 @@ Inherits WebSession
 	#tag Method, Flags = &h0
 		Sub checkMenu(s as String, h as string)
 		  If s = "Home" Then
-		    HomePage.Show
+		    CVEnumberPage.Close
+		    CVEScorePage.Close
+		    CVEScoreDatePage.Close
+		    CPEScorePage.Close
+		    CPEScoreDatePage.Close
+		    CWEnumberPage.Close
 		    
+		    HomePage.Show
 		  End If
 		  
 		  
 		  If s = "Search" Then
 		    Select Case h
 		    Case "by CVE Number"
+		      HomePage.Close
+		      CVEScorePage.Close
+		      CVEScoreDatePage.Close
+		      CPEScorePage.Close
+		      CPEScoreDatePage.Close
+		      CWEnumberPage.Close
+		      
 		      CVEnumberPage.Show
 		      
 		    Case "CVE by Score"
+		      HomePage.Close
+		      CVEnumberPage.Close
+		      CVEScoreDatePage.Close
+		      CPEScorePage.Close
+		      CPEScoreDatePage.Close
+		      CWEnumberPage.Close
+		      
 		      CVEScorePage.Show
 		      
 		    Case "CVE by Date & Score"
+		      HomePage.Close
+		      CVEnumberPage.Close
+		      CVEScorePage.Close
+		      CPEScorePage.Close
+		      CPEScoreDatePage.Close
+		      CWEnumberPage.Close
+		      
 		      CVEScoreDatePage.Show
 		      
 		    Case "CPE by Score"
+		      HomePage.Close
+		      CVEnumberPage.Close
+		      CVEScorePage.Close
+		      CVEScoreDatePage.Close
+		      CPEScoreDatePage.Close
+		      CWEnumberPage.Close
+		      
 		      CPEScorePage.Show
 		      
 		    Case "CPE by Date & Score"
+		      HomePage.Close
+		      CVEnumberPage.Close
+		      CVEScorePage.Close
+		      CVEScoreDatePage.Close
+		      CPEScorePage.Close
+		      CWEnumberPage.Close
+		      
 		      CPEScoreDatePage.Show
 		      
 		      
 		    Case "CWE"
+		      HomePage.Close
+		      CVEnumberPage.Close
+		      CVEScorePage.Close
+		      CVEScoreDatePage.Close
+		      CPEScorePage.Close
+		      CPEScoreDatePage.Close
+		      
 		      CWEnumberPage.Show
 		      
 		    End Select
 		  End If
+		  
 		End Sub
 	#tag EndMethod
 

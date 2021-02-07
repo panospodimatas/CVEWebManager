@@ -342,7 +342,7 @@ Begin WebPage CVEScorePage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   11
-      Text            =   "Insert Score Value:"
+      Text            =   "Score (0-10):"
       TextAlignment   =   3
       TextColor       =   &c00000000
       Tooltip         =   ""

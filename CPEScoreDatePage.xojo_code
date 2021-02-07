@@ -64,7 +64,7 @@ Begin WebPage CPEScoreDatePage
       Indicator       =   0
       InitialValue    =   ""
       LatestDate      =   ""
-      Left            =   581
+      Left            =   595
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -77,7 +77,7 @@ Begin WebPage CPEScoreDatePage
       Tooltip         =   ""
       Top             =   64
       Visible         =   True
-      Width           =   150
+      Width           =   136
       _mPanelIndex    =   -1
    End
    Begin WebTextField ScoreTextField
@@ -91,7 +91,7 @@ Begin WebPage CPEScoreDatePage
       Hint            =   ""
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   399
+      Left            =   423
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -108,7 +108,7 @@ Begin WebPage CPEScoreDatePage
       Tooltip         =   ""
       Top             =   64
       Visible         =   True
-      Width           =   100
+      Width           =   76
       _mPanelIndex    =   -1
    End
    Begin WebButton SearchButton
@@ -375,7 +375,7 @@ Begin WebPage CPEScoreDatePage
       Top             =   64
       Underline       =   False
       Visible         =   True
-      Width           =   66
+      Width           =   80
       _mPanelIndex    =   -1
    End
    Begin WebLabel Label3
@@ -388,7 +388,7 @@ Begin WebPage CPEScoreDatePage
       Index           =   -2147483648
       Indicator       =   0
       Italic          =   False
-      Left            =   315
+      Left            =   292
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -399,14 +399,14 @@ Begin WebPage CPEScoreDatePage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   11
-      Text            =   "Score:"
+      Text            =   "Score (0-10):"
       TextAlignment   =   3
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   64
       Underline       =   False
       Visible         =   True
-      Width           =   76
+      Width           =   123
       _mPanelIndex    =   -1
    End
    Begin WebButton ExportButton
@@ -477,7 +477,7 @@ Begin WebPage CPEScoreDatePage
       Hint            =   ""
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   207
+      Left            =   86
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -494,7 +494,7 @@ Begin WebPage CPEScoreDatePage
       Tooltip         =   ""
       Top             =   64
       Visible         =   True
-      Width           =   100
+      Width           =   198
       _mPanelIndex    =   -1
    End
    Begin WebLabel Label4
@@ -507,7 +507,7 @@ Begin WebPage CPEScoreDatePage
       Index           =   -2147483648
       Indicator       =   0
       Italic          =   False
-      Left            =   112
+      Left            =   12
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -525,7 +525,7 @@ Begin WebPage CPEScoreDatePage
       Top             =   64
       Underline       =   False
       Visible         =   True
-      Width           =   87
+      Width           =   66
       _mPanelIndex    =   -1
    End
 End

@@ -342,7 +342,7 @@ Begin WebPage CPEScorePage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   11
-      Text            =   "Insert Score Value:"
+      Text            =   "Score (0-10):"
       TextAlignment   =   3
       TextColor       =   &c00000000
       Tooltip         =   ""
@@ -420,7 +420,7 @@ Begin WebPage CPEScorePage
       Hint            =   ""
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   213
+      Left            =   175
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -437,7 +437,7 @@ Begin WebPage CPEScorePage
       Tooltip         =   ""
       Top             =   64
       Visible         =   True
-      Width           =   177
+      Width           =   211
       _mPanelIndex    =   -1
    End
    Begin WebLabel Label3
@@ -461,14 +461,14 @@ Begin WebPage CPEScorePage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   11
-      Text            =   "Insert CPE:"
+      Text            =   "CPE:"
       TextAlignment   =   3
       TextColor       =   &c00000000
       Tooltip         =   ""
       Top             =   64
       Underline       =   False
       Visible         =   True
-      Width           =   119
+      Width           =   81
       _mPanelIndex    =   -1
    End
 End
