@@ -30,8 +30,8 @@ Full PDF document will be provided soon with detailed information.
 Some screenshots:
 
 
-![](media/image1.png){width="5.763888888888889in"
+![](image1.png){width="5.763888888888889in"
 height="2.629861111111111in"}
 
-![](media/image2.png){width="5.763888888888889in"
+![](image2.png){width="5.763888888888889in"
 height="2.629861111111111in"}
